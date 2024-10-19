@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wolfcompany</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="icon" href="/photos/durka.jpg" sizes="32x32" type="image/png">
+</head>   
+<body>
+    <div class="page">
+<div class="start"> <!-- верх сайта -->
+    <div class="top-of-the-page">
+        <div>
+            <a href="index.html"><img src="/photos/durka.jpg" alt="logo" class="photo"></a>
+        </div>
+        <a href="index.html" class="companyname">wolfcompany</a>
+
+        <!-- Добавляем иконку гамбургера для мобильных устройств -->
+        <div class="menu-icon" id="menuIcon">&#9776;</div>
+
+        <!-- Выпадающее меню -->
+        <div class="nav-menu" id="navMenu">
+            <a href="index.html" class="nav-obj">glówna strona</a>
+            <a href="index2.html" class="nav-obj">schody</a>
+            <a href="mailto:pawelwolfkompany@gmail.com" class="nav-obj">opinie</a>
+        </div>
+    </div>
+<div class="top_text"> <span> <br> meble loftowe</span> </div>
+</div>
+        <hr style="margin-top: 40px;">
+        <div>
+            <img src="/photos/projects/furniture/furniture1.jpg" alt="" class="products2">
+            <span></span>
+            <img src="/photos/projects/furniture/furniture2.jpg" alt="" class="products2">
+            <span></span>
+            
+            <img src="/photos/projects/furniture/furniture7.jpg" alt="" class="products2">
+            <span></span>
+            <img src="/photos/projects/furniture/furniture11.jpg" alt="" class="products2">
+            <span></span>
+            <img src="/photos/projects/furniture/furniture12.jpg" alt="" class="products2">
+            <span></span>
+            
+            
+            <img src="/photos/projects/furniture/furniture17.jpg" alt="" class="products2">
+            <span></span>
+        </div>
+        <hr style="margin-bottom: 40px;">
+
+        <div class="want-some">
+            <p class="center want-some-1">Masz pomysł na niestandardowy projekt?</p>
+            <br>
+            <p class="center want-some-2">Skontaktuj się z naszym specjalistą, z którym możesz skonsultować swój pomysł wykraczający poza produkty prezentowane na naszej stronie. <br> Niekonwencjonalne projekty są dla nas wyzwaniem, które uwielbiamy!
+            </p>
+            <a href="tel:+48791309560" ><button class="number-to-products">+48 791-309-560</button></a>
+        </div>
+        <div class="upfooter">
+
+        </div>
+        <footer class="foot">
+            <ul class="leftfoot">
+            <span class="footname1">Media społecznościowe</span>
+            <br>
+            <a href="https://www.instagram.com/wolfkompany?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="photos/inst.png" alt="my instagram" class="insta"></a>
+           <br><br><br><br>
+            </ul>
+                    <ul class="centerfoot">
+                        <p class="footname">Na skróty</p>
+                        <li><a href="index.html" class="qqq">główna strona</a></li>
+                        <li><a href="index2.html">Schody</a></li>
+                        <li><a href="index3.html">meble loftowe</a></li>
+                        <br>
+                    
+                    </ul>
+            <ul class="rightfoot">
+                <span class="footname ">Dane kontaktowe</span>
+            <div class="myinfo">
+                <ul class="ulu">
+                    <li>Wolfcompany JGD</li>
+                    <li>NIP: 8943225716</li>
+                    <li>ul. strachowicka 8/7, Wrocław</li>
+                    <li><a href="mailto:pawelwolfkompany@gmail.com"><span class="gmail ww">pawelwolfcompany@gmail.com</span></a></li>
+                    <li><a href="tel:+48791309560"><span class="ww">+48 791-309-560</span></a></li>
+                </ul>
+            </div>
+            </ul>
+        </footer>
+        <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>
+    </div>
+            <script>
+                const menuIcon = document.getElementById('menuIcon');
+                const navMenu = document.getElementById('navMenu');
+
+                // Добавляем/удаляем класс при клике на иконку меню
+                menuIcon.addEventListener('click', () => {
+                    navMenu.classList.toggle('menu-active');  // Переключаем класс "menu-active"
+                });
+            </script>
+</body>
+</html>
